@@ -11,5 +11,4 @@ urlpatterns = [
     path('activate/<int:user_id>/', views.activate_account, name='activate'),
     path('ajax/courses/', views.list_courses_ajax, name='list_courses_ajax'),
     path('course/<int:course_id>/enroll/', views.enroll_course, name='enroll_course'),
-    path('ajax/inscribir/', views.enroll_course, name='ajax_inscribir_curso'),
 ]

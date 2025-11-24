@@ -67,3 +67,4 @@ RUN echo '#!/bin/bash\n\
 
 # Run startup script
 CMD ["/app/start.sh"]
+
